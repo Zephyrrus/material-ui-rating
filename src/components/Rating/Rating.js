@@ -122,8 +122,8 @@ Rating.propTypes = {
   itemStyle: PropTypes.object,
   /** The max value of the rating bar. */
   max: PropTypes.number,
-  /** THe min value of the rating bar  */
-  min: PropTypes.number.
+  /** The min value of the rating bar  */
+  min: PropTypes.number,
   /** Fired when a value is clicked. */
   onChange: PropTypes.func,
   /** Don't allow input if set to true. */
