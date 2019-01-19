@@ -72,11 +72,8 @@ export default class Rating extends Component {
           key={i}
           className={itemClassName}
           disabled={disabled}
-          iconStyle={itemIconStyle}
           style={itemStyle}
           tooltip={tooltip || tooltipRenderer ? tooltipRenderer({index: i, ...this.props}) : null}
-          tooltipPosition={tooltipPosition}
-          tooltipStyles={tooltipStyles}
           onMouseEnter={() => this.setState({hoverValue: i})}
           onMouseLeave={() => this.setState({hoverValue: value})}
           onClick={() => {
